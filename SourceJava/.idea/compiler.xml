@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Demo01" />
+        <module name="Demo02" />
+        <module name="Testing_Sysstem_Assignment2 (1)" />
+        <module name="Testing_Sysstem_Assignment2 (2)" />
+        <module name="demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Testing_Sysstem_Assignment2" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
