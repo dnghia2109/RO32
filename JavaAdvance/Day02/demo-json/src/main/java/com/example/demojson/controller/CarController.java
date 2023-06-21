@@ -1,2 +1,4 @@
-package com.example.demojson.controller;public class CarController {
+package com.example.demojson.controller;
+
+public class CarController {
 }

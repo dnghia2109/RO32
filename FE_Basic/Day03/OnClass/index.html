@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./style/style1.css">
+    <link rel="stylesheet" href="./style/style2.css">
+<body>
+    <header>
+        <a href="#nd1">Menu1</a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        <a href="mailto:laiduynghia@gmail.com">Send Email</a>
+        <a href="tel:+0369105697">Make a call</a>
+        <a href="./media/premium_photo-1670179694028-a74b92f49857.avif" download="">Download image</a>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row bg-primary mb-2">
+            <div class="col border border-warning text-center"><p> 1 </p></div>
+            <div class="col border border-warning text-center"><p> 2 </p></div>
+        </div>
+
+        <div class="row bg-secondary mb-2">
+            <div class="col border border-warning text-center"><p> 1 </p></div>
+            <div class="col border border-warning text-center"><p> 2 </p></div>
+            <div class="col border border-warning text-center"><p> 3 </p></div>
+        </div>
+        <div class="row bg-danger mb-2">
+            <div class="col border border-warning text-center"><p> 1 </p></div>
+            <div class="col border border-warning text-center"><p> 2 </p></div> 
+            <div class="col border border-warning text-center"><p> 3 </p></div>
+            <div class="col border border-warning text-center"><p> 4 </p></div> 
+            <div class="col border border-warning text-center"><p> 5 </p></div>
+            <div class="col border border-warning text-center"><p> 6 </p></div>
+            <div class="col border border-warning text-center"><p> 7 </p></div>
+            <div class="col border border-warning text-center"><p> 8 </p></div>
+            <div class="col border border-warning text-center"><p> 9 </p></div>
+            <div class="col border border-warning text-center"><p> 10 </p></div>
+            <div class="col border border-warning text-center"><p> 10 </p></div>
+            <div class="col border border-warning text-center"><p> 10 </p></div>
+            <div class="col border border-warning text-center"><p> 10 </p></div>
+        </div>
+    </div>
+
+    <!-- ul#menu.menu-style>(li>a)*5 -->
+    <ul id="menu" class="menu-style">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+    </ul>
+
+    <ol id="menu" class="menu-style" type="I">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+    </ol>
+
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <div id="intro">
+        <span> Lai Duy Nghia </span><br>
+        <span> 0368105697 </span><br>
+        <span> LB&nbsp; &nbsp; &nbsp;HN </span><br>
+        <p>I'm 21 years old</p>
+        <p>I'm 23 years old</p>
+    </div>
+
+    <!-- Thẻ pre cũng giống như thẻ p nhưng sẽ giữ nguyên các edit trong đoạn văn bản nhập vào -->
+    <div id="grandpa">
+        <!-- <p>Nghia</p>
+        <p>Nghia</p> -->
+        <div id="parrent">
+            <p id="child">
+        Ví dụ về thẻ pre
+                Đây là thông tin cá nhân của tôi:
+                - Lai Duy Nghia
+                - SDT: 0368105697
+                - LB   HN
+                
+            </p>
+
+        </div>
+    </div>
+
+    <span>Lai Duy Nghia</span>
+    <span>0368105697</span>
+
+    <!-- Common attributes:
+    - id
+    - class
+    - name
+    - style -->
+    <div id="detail"> 
+        <details id="" class="" style="" name="" open="open">
+            <summary>Nội dung 1</summary>
+            <p> Đây là nội dung đầu tiên</p>
+            <summary>Nội dung 2</summary>
+            <p> Đây là nội dung thứ 2</p>
+        </details>
+
+
+        <details id="nd1">
+            <summary><b>Epcot Center</b></summary>
+            <b>Epcot</b> is a theme park at
+            <i><b><u>Walt Disney World Resort</u></b></i>
+            featuring exciting attractions,
+            <mark>international pavilions</mark>,
+            <del>fireworks</del>
+            and seasonal special events.
+            <br> Made by Lai Duy Nghia <sup>[1]</sup> <sub>Ldnghia21</sub>
+        </details>
+
+        <details id="nd1">
+            <summary><b>Epcot Center</b></summary>
+            <b>Epcot</b> is a theme park at
+            <i><b><u>Walt Disney World Resort</u></b></i>
+            featuring exciting attractions,
+            <mark>international pavilions</mark>,
+            <del>fireworks</del>
+            and seasonal special events.
+            <br> Made by Lai Duy Nghia <sup>[1]</sup> <sub>Ldnghia21</sub>
+        </details>
+    </div>
+
+
+    <table id="tblStudent">
+        <caption>Students</caption>
+        <colgroup span="1" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thang</td>
+            <td>01-09-1994</td>
+            <td>Des1</td>
+            <td><button onclick="onDelete(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Thang2</td>
+            <td>01-09-1994</td>
+            <td>Des1</td>
+            <td><button onclick="onDelete(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Thang3</td>
+            <td>01-09-1994</td>
+            <td>Des1</td>
+            <td><button onclick="onDelete(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Thang4</td>
+            <td>01-09-1994</td>
+            <td>Des1</td>
+            <td><button onclick="onDelete(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Sum</td>
+            <td colspan="3"></td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <hr style="border: 1px solid rgb(255, 0, 0);">
+
+    <h2>Form Data</h2>
+    <form id="addStudentForm">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Vui lòng nhập tên" required><br>
+        <label for="date">Date:</label>
+        <input id="date" type="date" required><br>
+        <label for="des">Des:</label>
+        <textarea id="des" placeholder="Vui lòng nhập mô tả"></textarea><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    <hr style="border: 1px solid red;">
+
+
+    <!-- <form action="">
+        <input type="button"><br>
+        <input type="checkbox"><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="datetime-local"><br>
+        <input type="email"><br>
+        <input type="file"><br>
+        <input type="hidden"><br>
+        <input type="image"><br>
+        <input type="month"><br>
+        <input type="number"><br>
+        <input type="password"><br>
+        <input type="radio"><br>
+        <input type="range"><br>
+        <input type="reset"><br>
+        <input type="search"><br>
+        <input type="submit"><br>
+        <input type="tel"><br>
+        <input type="text"><br>
+        <input type="time"><br>
+        <input type="url"><br>
+        <input type="week"><br>
+    </form> -->
+</body>
+
+<!-- cdn jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- cdn bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./javascript/script1.js"></script>
+<script src="./javascript/script2.js"></script>
+<script src="./javascript/script3.js"></script>
+</html>

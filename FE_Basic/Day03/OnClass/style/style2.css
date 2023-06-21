@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 3px solid #2e65d2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    /* background-color: #dddddd; */
+  }
+
+  header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row; /*default là row */
+    justify-content: space-evenly;
+  }
+
+  
+
+  #intro p:nth-of-type(1), #intro p:nth-of-type(2) {
+    display: none;
+  }
+
+  #detail {
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+
+  #detail details {
+    flex-basis: calc(100%/3);
+  }
+
+  #grandpa{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    border: 1.5px solid rgb(34, 44, 223);
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+
+  #parrent{
+    width: 300px;
+    height: 250px;
+    border: 1.5px solid red;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+  }
+
+  #child {
+    width: 200px;
+    height: 150px;
+    border: 1.5px solid rgb(30, 210, 42);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }

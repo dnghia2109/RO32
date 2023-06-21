@@ -1,2 +1,4 @@
-package com.example.demojson.repository;public class CarRepository {
+package com.example.demojson.repository;
+
+public class CarRepository {
 }

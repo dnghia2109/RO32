@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style1.css">
+    <link rel="stylesheet" href="./style/style2.css">
+<body>
+    <header>
+        <a href="#nd1">Menu1</a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        <a href="mailto:laiduynghia@gmail.com">Send Email</a>
+        <a href="tel:+0369105697">Make a call</a>
+        <a href="./media/premium_photo-1670179694028-a74b92f49857.avif" download="">Download image</a>
+    </header>
+
+    <!-- ul#menu.menu-style>(li>a)*5 -->
+    <ul id="menu" class="menu-style">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+    </ul>
+
+    <ol id="menu" class="menu-style" type="I">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+    </ol>
+
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <div id="intro">
+        <span> Lai Duy Nghia </span><br>
+        <span> 0368105697 </span><br>
+        <span> LB&nbsp; &nbsp; &nbsp;HN </span><br>
+        <p>I'm 21 years old</p>
+        <p>I'm 23 years old</p>
+    </div>
+
+    <!-- Thẻ pre cũng giống như thẻ p nhưng sẽ giữ nguyên các edit trong đoạn văn bản nhập vào -->
+    <div id="grandpa">
+        <!-- <p>Nghia</p>
+        <p>Nghia</p> -->
+        <div id="parrent">
+            <p id="child">
+        Ví dụ về thẻ pre
+                Đây là thông tin cá nhân của tôi:
+                - Lai Duy Nghia
+                - SDT: 0368105697
+                - LB   HN
+                
+            </p>
+
+        </div>
+    </div>
+
+    <span>Lai Duy Nghia</span>
+    <span>0368105697</span>
+
+    <!-- Common attributes:
+    - id
+    - class
+    - name
+    - style -->
+    <div id="detail"> 
+        <details id="" class="" style="" name="" open="open">
+            <summary>Nội dung 1</summary>
+            <p> Đây là nội dung đầu tiên</p>
+            <summary>Nội dung 2</summary>
+            <p> Đây là nội dung thứ 2</p>
+        </details>
+
+
+        <details id="nd1">
+            <summary><b>Epcot Center</b></summary>
+            <b>Epcot</b> is a theme park at
+            <i><b><u>Walt Disney World Resort</u></b></i>
+            featuring exciting attractions,
+            <mark>international pavilions</mark>,
+            <del>fireworks</del>
+            and seasonal special events.
+            <br> Made by Lai Duy Nghia <sup>[1]</sup> <sub>Ldnghia21</sub>
+        </details>
+
+        <details id="nd1">
+            <summary><b>Epcot Center</b></summary>
+            <b>Epcot</b> is a theme park at
+            <i><b><u>Walt Disney World Resort</u></b></i>
+            featuring exciting attractions,
+            <mark>international pavilions</mark>,
+            <del>fireworks</del>
+            and seasonal special events.
+            <br> Made by Lai Duy Nghia <sup>[1]</sup> <sub>Ldnghia21</sub>
+        </details>
+    </div>
+
+
+    <table border="solid">
+        <caption>Students</caption>
+        <colgroup span="1" style="background-color: cadetblue;"></colgroup>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>DOB</td>
+            <td>Address</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nghia</td>
+            <td>21-09-2001</td>
+            <td rowspan="4">HN</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nghia2</td>
+            <td>21-09-2001</td>
+            <!-- <td>HN</td> -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nghia3</td>
+            <td>21-09-2001</td>
+            <!-- <td>HN</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nghia4</td>
+            <td>21-09-2001</td>
+            <!-- <td>HN</td> -->
+        </tr>
+        <tr>
+            <td>SUM</td>
+            <td colspan="2"></td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <hr style="border: 1px solid rgb(255, 0, 0);">
+
+    <form action="" method="post">
+        <label for="input_name">Name</label>
+        <input id="input_name" type="text" placeholder="Vui lòng nhập tên"><br>
+
+        <label for="input_dob">DOB</label>
+        <input id="input_dob" type="date" placeholder="Vui lòng dob"><br>
+
+        <label for="input_description">Description</label>
+        <textarea id="input_description" placeholder="Nhập description"> </textarea><br>
+
+        <input type="button" value="Save">
+    </form>
+
+
+    <form action="">
+        <input type="button"><br>
+        <input type="checkbox"><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="datetime-local"><br>
+        <input type="email"><br>
+        <input type="file"><br>
+        <input type="hidden"><br>
+        <input type="image"><br>
+        <input type="month"><br>
+        <input type="number"><br>
+        <input type="password"><br>
+        <input type="radio"><br>
+        <input type="range"><br>
+        <input type="reset"><br>
+        <input type="search"><br>
+        <input type="submit"><br>
+        <input type="tel"><br>
+        <input type="text"><br>
+        <input type="time"><br>
+        <input type="url"><br>
+        <input type="week"><br>
+    </form>
+</body>
+<script src="."></script>
+</html>

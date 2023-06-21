@@ -1,2 +1,7 @@
-package com.example.demojson.service;public class CarService {
+package com.example.demojson.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CarService {
 }
