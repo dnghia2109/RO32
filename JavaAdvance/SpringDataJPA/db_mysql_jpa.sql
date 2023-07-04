@@ -43,3 +43,6 @@ insert into tbl_employee (id, name, title, age) values (17, 'Stables', 'Mr', 24)
 insert into tbl_employee (id, name, title, age) values (18, 'Natwick', 'Mrs', 24);
 insert into tbl_employee (id, name, title, age) values (19, 'Peinke', 'Honorable', 27);
 insert into tbl_employee (id, name, title, age) values (20, 'MacAlees', 'Mrs', 40);
+
+
+select * from tbl_employee
