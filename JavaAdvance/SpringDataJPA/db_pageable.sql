@@ -1,5 +1,5 @@
-drop DATABASE IF EXISTS `db_pageable`;
-CREATE DATABASE `db_pageable`;
+-- drop DATABASE IF EXISTS `db_pageable`;
+-- CREATE DATABASE `db_pageable`;
 use `db_pageable`;
 
 insert into product (name, quantity, price) values ('Soup - Beef Conomme, Dry', 27, 10000);
@@ -188,7 +188,7 @@ insert into car (name, maker, year) values ('RX-7', 'Kia', 1988);
 insert into car (name, maker, year) values ('911', 'Ford', 2008);
 insert into car (name, maker, year) values ('Suburban 1500', 'Kia', 1993);
 insert into car (name, maker, year) values ('Elise', 'Toyota', 2007);
-insert into car (name, maker, year) values ('Five Hundred', 'Huyndai', 2006);
+insert into car (name, maker, year) values ('Five Hundred', 'Huyndai', 2006); 
 insert into car (name, maker, year) values ('GranSport', 'Ford', 2006);
 insert into car (name, maker, year) values ('S60', 'Huyndai', 2003);
 insert into car (name, maker, year) values ('Pajero', 'Ford', 2001);
@@ -250,12 +250,41 @@ insert into person (fullname, job, gender, city, salary, birthday) values ('Gibb
 insert into person (fullname, job, gender, city, salary, birthday) values ('Desmond Troyes', 'VP Accounting', 'Male', 'Osvaldo Cruz', 550, '1999-03-27');
 insert into person (fullname, job, gender, city, salary, birthday) values ('Waldo Bazeley', 'Media Manager IV', 'Male', 'Muang Phôn-Hông', 1000, '1992-05-30');
 insert into person (fullname, job, gender, city, salary, birthday) values ('Fredelia Scotts', 'Payment Adjustment Coordinator', 'Female', 'Bacnor East', 4500, '1994-11-03');
-
+insert into person (fullname, job, gender, city, salary, birthday) values ('Nguyễn Gia Bảo', 'HLV của Halland', 'Female', '75 Chợ Con', 300, '2012-01-28');
 
 
 select c.maker, count(c.id)
 from car c
--- WHERE c.maker = "Ford"
-GROUP BY c.maker;
+WHERE c.maker = "Ford";
+-- GROUP BY c.maker;
+
+SELECT *
+FROM car;
+
+SELECT *
+FROM db_pageable.car c;
+SELECT *
+FROM person p
+WHERE p.fullname = 'Nguyễn Gia Bảo';
+
+SELECT *
+FROM product p WHERE p.name like 'Che%';
+
+
+SELECT c.maker, count(c.id), group_concat(c.name)
+FROM db_pageable.car c
+group by c.maker;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
